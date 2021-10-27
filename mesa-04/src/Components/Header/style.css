@@ -1,0 +1,9 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    align-content: space-between;
+}
+
+li{
+    margin: auto;
+}

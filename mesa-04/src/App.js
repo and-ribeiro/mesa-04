@@ -1,14 +1,13 @@
 import './App.css';
+import Header from './Components/Header'
 
-function App() {
+function App() {  
   return (
     <div className="App">
-      <header className="App-header">       
-        <a>Mesa de Trabalho 04</a>
-        <img src="homem-feliz-dinheiro.jpg"></img>
-      </header>
+      <Header logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png"/>      
     </div>
   );
+
 }
 
 export default App;
